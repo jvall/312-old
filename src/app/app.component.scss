@@ -1,8 +1,14 @@
 p312-title-bar {
   display: block;
-  top: 0;
-  left: 0;
-  z-index: 2;
   width: 100%;
-  position: absolute;
+}
+
+.front-section {
+  display: block;
+  width: 100%;
+}
+
+.sections-shell {
+  height: calc(100% - 80px);
+  overflow-y: auto;
 }
