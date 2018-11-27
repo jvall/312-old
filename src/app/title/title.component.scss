@@ -11,4 +11,25 @@
 
 video {
   position: absolute;
+  z-index: -1;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  width: 75%;
+
+  h1 {
+    font-size: 20em;
+    font-family: 'Permanent Marker';
+    font-style: italic;
+    margin: 0;
+    line-height: 1;
+  }
+
+  p {
+    font-family: 'Sedgwick Ave';
+    font-size: 3em;
+    line-height: 1.6;
+  }
 }
